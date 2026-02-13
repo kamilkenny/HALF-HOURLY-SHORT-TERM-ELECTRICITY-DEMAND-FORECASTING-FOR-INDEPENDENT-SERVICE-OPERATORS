@@ -163,6 +163,7 @@ Day-of-week one-hot encoded features
 Multi-step targets (target_1, target_2, target_3)
 
 <img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/8a160181-161e-4a70-9d63-5f4183ca49d9" />
+<img width="1214" height="556" alt="download (12)" src="https://github.com/user-attachments/assets/612bf04b-a858-4064-8ebe-cf0d3734f876" />
 
 
 # Half-Hourly Future Forecasting Pipeline
@@ -203,6 +204,7 @@ Combine the generated future timestamps with the predicted values for all three 
 
 The resulting table is structured with columns
 <img width="1024" height="1536" alt="f0641be7-5439-4f6b-b746-86bb7e567b3d" src="https://github.com/user-attachments/assets/e2c166e0-6bd1-4b04-a473-3e04d5157fc9" />
+<img width="984" height="584" alt="download (13)" src="https://github.com/user-attachments/assets/48fbcd9c-59cc-4d43-8550-d23c9030219e" />
 
 
 
