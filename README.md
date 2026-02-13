@@ -35,3 +35,55 @@ Helps identify peak load hours.
 Checks if high demand corresponds to high prices.
 <img width="618" height="470" alt="download (9)" src="https://github.com/user-attachments/assets/755b3dea-4cab-4825-88bc-6a943281419b" />
 
+# Half-Hourly Forecasting Feature Pipeline
+This pipeline transforms raw half-hourly energy demand data into a structured, model-ready dataset for predicting the next 3 half-hour demand values. It creates lag features, rolling statistics, time-based encodings, and multi-step targets.
+
+# Steps in the Pipeline
+Initialize feature DataFrame
+
+Create an empty DataFrame with the same timestamps as the input data to store all engineered features.
+
+Lag features
+
+Add previous half-hour values of energy demand (e.g., lag_1, lag_2, lag_3).
+
+Purpose: Captures temporal dependencies since past demand helps predict future demand.
+
+Rolling statistics
+
+Compute rolling mean and standard deviation over a window of recent half-hours.
+
+Purpose: Captures short-term trends and variability in demand.
+
+Hour of the day (cyclical encoding)
+
+Convert the hour into hour_sin and hour_cos using sine and cosine transformations.
+
+Purpose: Models the daily demand cycle and avoids discontinuities between 23:30 → 00:00.
+
+Day of the week
+
+Encode weekdays as binary columns using one-hot encoding.
+
+Purpose: Accounts for different patterns between weekdays and weekends.
+
+# Targets for multi-step forecasting
+
+Create target_1, target_2, target_3 as the demand for the next 1, 2, and 3 half-hours.
+
+Purpose: Prepares the dataset for predicting multiple future time steps simultaneously.
+
+Drop rows with missing values
+
+Remove rows that have NaN due to lag or target shifts.
+
+Purpose: Ensures the dataset is complete for model training.
+
+Output
+
+Features: Lag values, rolling stats, hour/day encodings
+
+Targets: Next 3 half-hour energy demands (target_1, target_2, target_3)
+
+# Result: A clean, structured dataset ready for machine learning models, supporting multi-step forecasting.
+# This pipeline efficiently captures temporal trends, cyclical patterns, and short-term variability, making it ideal for half-hourly energy demand forecasting.
