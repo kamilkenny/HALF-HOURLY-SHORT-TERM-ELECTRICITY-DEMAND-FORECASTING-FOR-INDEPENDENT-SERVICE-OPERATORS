@@ -1,6 +1,8 @@
 
 # HALF-HOURLY-SHORT-TERM-ELECTRICITY-DEMAND-FORECASTING-FOR-INDEPENDENT-SERVICE-OPERATORS
-<img width="1024" height="1536" alt="Image M" src="https://github.com/user-attachments/assets/515a6d5e-919c-48c7-bbd7-19b418f5a27e" />
+<img width="615" height="367" alt="Screenshot 2026-02-17 140537" src="https://github.com/user-attachments/assets/c8035c21-c6fb-4c7e-aa8d-4d3f06601754" />
+
+
 Accurate short-term electricity demand forecasting is critical for power system operation, generation dispatch, and market pricing.
 
 # The Design, Development and Modelling was done in Python and uploaded as a file in this respository 
