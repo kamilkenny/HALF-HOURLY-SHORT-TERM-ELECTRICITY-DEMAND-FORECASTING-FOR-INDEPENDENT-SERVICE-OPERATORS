@@ -3,7 +3,7 @@
 
 ![Project Banner](https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1000)
 
-          ![Project Banner](https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1000)
+
 
 Accurate short-term electricity demand forecasting is critical for power system operation, generation dispatch, and market pricing.
 
