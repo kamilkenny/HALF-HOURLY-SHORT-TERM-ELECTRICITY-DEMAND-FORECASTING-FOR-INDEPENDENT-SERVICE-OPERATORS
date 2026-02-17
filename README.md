@@ -1,6 +1,7 @@
 
 # HALF-HOURLY-SHORT-TERM-ELECTRICITY-DEMAND-FORECASTING-FOR-INDEPENDENT-SERVICE-OPERATORS
-<img width="615" height="367" alt="Screenshot 2026-02-17 140537" src="https://github.com/user-attachments/assets/c8035c21-c6fb-4c7e-aa8d-4d3f06601754" />
+
+![Project Banner](https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1000)
 
 
 Accurate short-term electricity demand forecasting is critical for power system operation, generation dispatch, and market pricing.
