@@ -1,10 +1,10 @@
 
 # HALF-HOURLY-SHORT-TERM-ELECTRICITY-DEMAND-FORECASTING-FOR-INDEPENDENT-SERVICE-OPERATORS
 
+<img width="960" height="720" alt="20241206_Grid_energy_storage svg" src="https://github.com/user-attachments/assets/0059452b-3f54-4eb1-856f-10908717cbfe" />
 
 
 
-![20230408_TQD005](https://github.com/user-attachments/assets/8f4f354c-51c1-4f15-a7ed-94a3f27229f4)
 
 
 
